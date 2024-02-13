@@ -1,0 +1,141 @@
+@charset "UTF-8"; 
+
+@font-face {
+    font-family:'optico';
+    src: url(fontes/OPTICoyonetBold.otf) format('opentype');
+
+}
+
+@font-face {
+    font-family:'averia';
+    src: url(fontes/AveriaLibre-Light.ttf) format('truetype');
+}
+
+@font-face {
+    font-family:'luxi';
+    src: url(fontes/luxirbi.ttf) format('truetype');
+}
+
+:root{
+    --fonte1: Arial, Helvetica, sans-serif;
+    --fonte2: optico;
+    --fonte3: averia;
+    --fonte4: luxi;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body{
+    min-width: 85vh;
+    background-color: #8B6B4F;
+    font-family: var(--fonte3);
+}
+
+header{
+    color: #eed6bb;
+    margin: 10px;
+    padding-bottom: 30px;
+    font-family: var(--fonte2);
+    
+}
+
+a{
+    font-size: 20px;
+    color: #D9C6B0;
+    text-decoration: none;
+    margin: 10px;
+    padding: 20px;
+    padding-bottom: 20px;
+    text-align: left;
+    transition: all .3s ease-in-out;
+}
+
+a:hover{
+    background-color: #856448;
+    border-radius: 20px;
+}
+
+h1{
+    font-size: 3vw; 
+    display: inline-block;
+    min-width: 800px;
+}
+
+h2{
+    font-size: 30px;
+    color: #D9C6B0;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+}
+
+h3{
+    padding-bottom: 20px;
+}
+
+section{
+    font-size: 20px;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    padding-left: 35px;
+    line-height:4em;
+}
+
+
+section.normal{
+background-color: #b69679 ;
+color: #572f0a;
+}
+
+
+section.diferent{
+    background-color: darkgray;
+    color: rgb(201, 159, 117);
+    box-shadow: inset 10px 10px 15px 0px rgba(0, 0, 0, 0.678);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section.diferent > p{
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.685);
+    padding: 7px;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.856); /* sombra no texto das caixinhas */
+}
+
+section > p{
+    padding-bottom: 3em;
+}
+
+p{
+    border-radius: 20px;
+}
+
+section#img1{
+    background-image: url(image/billie1.webp);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+section#img2{
+    background-image: url(image/eilish.jpeg);
+    background-repeat: no-repeat;
+    background-position: center center
+}
+
+section#img3{
+    background-image: url(image/bbllpp.jpg);
+    background-repeat: no-repeat;
+    
+}
+
+
+
+
+
+
+
