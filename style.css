@@ -39,36 +39,66 @@ header{
     margin: 10px;
     padding-bottom: 30px;
     font-family: var(--fonte2);
-    
 }
 
-a{
+a.titulo:hover{
+    background-color: #8B6B4F; /* improviso pra tirar o hover da logo*/
+}
+
+
+a.titulo{
+    color: #D9C6B0;
+    text-decoration: none;
+    padding: 20px;
+    padding-top: 37px;
+
+}
+
+a.navbar{
     font-size: 20px;
     color: #D9C6B0;
     text-decoration: none;
+    padding-bottom: 20px;
     margin: 10px;
     padding: 20px;
-    padding-bottom: 20px;
     text-align: left;
     transition: all .3s ease-in-out;
 }
+
 
 a:hover{
     background-color: #856448;
     border-radius: 20px;
 }
 
+div#redesocial{
+    font-size: 30px;
+    display: flex;
+    align-items: right;
+    justify-content: right;
+}
+
+
+i{
+    padding: 5px;
+}
+
+i:hover{
+background-color: #8B6B4F; /* improviso pra tirar o hover das redes sociais */
+}
+
 h1{
-    font-size: 3vw; 
+    font-size: 60px; 
     display: inline-block;
-    min-width: 800px;
+    max-width: 800px;
+    
 }
 
 h2{
     font-size: 30px;
     color: #D9C6B0;
     text-align: center;
-    padding-top: 10px;
+    padding-top: 25px;
     padding-bottom: 30px;
     padding-left: 10px;
 }
